@@ -40,7 +40,7 @@ class ThirdTab extends StatelessWidget {
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.grey[200],
-                    borderRadius:  BorderRadius.circular(12)
+                    borderRadius:  BorderRadius.circular(12),
                   ),
                   child: ListTile(
                     title: Text(games[index].home_team_score),
